@@ -1,6 +1,6 @@
 # Movie clone project of Machine learning
 
-In this project a movie-clone is made in which a user choose his choice of movie for watching and in return he will get an option for watch and along with that he will be recommended by another 5 movies as similiar to his choice .
+In this project a movie-clone is made in which a user can choose his choice of movie for watching and in return he will get an option for watch and along with that he will be recommended by another 5 movies as similiar to his choice .
 
 Used:-
 tmdb Api,
