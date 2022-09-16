@@ -11,20 +11,20 @@ def poster(movie_id):
     full_path = "https://image.tmdb.org/t/p/w500/" + poster_path
     return full_path
 def overview(movie_id):
-    url = "https://api.themoviedb.org/3/movie/{}?api_key=e2b010e7d4491c42a9a3e922596bf0d9&language=en-US".format(movie_id)
+    url = "https://api.themoviedb.org/3/movie/{}?api_key=#####&language=en-US".format(movie_id)
     dataset = requests.get(url)
     data = dataset.json()
 
     return data['overview']
 def ratings(movie_id):
-    url = "https://api.themoviedb.org/3/movie/{}?api_key=e2b010e7d4491c42a9a3e922596bf0d9&language=en-US".format(
+    url = "https://api.themoviedb.org/3/movie/{}?api_key=#####&language=en-US".format(
         movie_id)
     dataset = requests.get(url)
     dataset = dataset.json()
 
     return (str(dataset['vote_average'])+' /10')
 def language(movie_id):
-    url = "https://api.themoviedb.org/3/movie/{}?api_key=e2b010e7d4491c42a9a3e922596bf0d9&language=en-US".format(
+    url = "https://api.themoviedb.org/3/movie/{}?api_key=#####&language=en-US".format(
         movie_id)
     dataset = requests.get(url)
     dataset = dataset.json()
