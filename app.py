@@ -4,7 +4,7 @@ import streamlit as st
 
 
 def poster(movie_id):
-    url = "https://api.themoviedb.org/3/movie/{}?api_key=e2b010e7d4491c42a9a3e922596bf0d9&language=en-US".format(movie_id)
+    url = "https://api.themoviedb.org/3/movie/{}?api_key=#####&language=en-US".format(movie_id)
     dataset = requests.get(url)
     dataset = dataset.json()
     poster_path = dataset['poster_path']
